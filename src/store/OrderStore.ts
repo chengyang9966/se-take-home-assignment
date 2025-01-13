@@ -4,6 +4,14 @@ import { Order } from "../interface/order";
 import { v4 as uuidv4 } from "uuid";
 import { Bot } from "../interface/bot";
 
+
+/**
+ * References:
+ * https://medium.com/globant/react-state-management-b0c81e0cbbf3
+ * Difference between Zustand and Redux
+ * Sample Usage of Zustand
+ */
+
 interface OrderState {
   orderNumber: number;
   pendingOrders: Order[];
